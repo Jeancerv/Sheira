@@ -181,7 +181,7 @@ padding: 1.2rem;
     align-items: center;
     font-size: 3rem;
     background-color: rgba(255, 106, 255, 0.85);
-
+    text-align: center;
 }
 
 .contact > h3{
@@ -258,24 +258,29 @@ cursor: pointer;
     }
 
     .about {
-        padding: 150px;
+        padding: 100px;
         color: aliceblue;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 400px;
     }
     
     .ini{
+        
     background-color: rgba(255, 106, 255, 0.85);
     border-radius: 2rem;
     padding: 0.5rem;
-    width: 200px;
+    width: 400px;
+    
     }
     
     .ini > p{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
     .ini > h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 
