@@ -266,15 +266,15 @@ cursor: pointer;
     .ini{
     background-color: rgba(255, 106, 255, 0.85);
     border-radius: 2rem;
-    padding: 1.2rem;
+    padding: 0.5rem;
     }
     
     .ini > p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .ini > h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 
