@@ -263,7 +263,7 @@ cursor: pointer;
         text-align: center;
         display: flex;
         justify-content: center;
-        height: 400px;
+        height: 100%;
     }
     
     .ini{
