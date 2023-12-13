@@ -224,7 +224,58 @@ cursor: pointer;
 }
 
 @media (max-width: 768px) {
+
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        font-size: 20px;
+        background-color: rgba(255, 106, 255, 0.85);
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        position: fixed;
+        max-height: 80px;
+        width: 100%;
+    }
     
+    
+    #Contactame{
+        scroll-behavior: smooth;
+    }
+    
+    .navegacion > a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+    }
+    
+    .navegacion > img{
+        height: 50px;
+        border-radius: 3rem;
+    }
+
+    .about {
+        padding: 150px;
+        color: aliceblue;
+        text-align: center;
+    }
+    
+    .ini{
+    background-color: rgba(255, 106, 255, 0.85);
+    border-radius: 2rem;
+    padding: 1.2rem;
+    }
+    
+    .ini > p{
+        font-size: 1rem;
+    }
+    
+    .ini > h1{
+        font-size: 2rem;
+    }
 
 
 
