@@ -267,6 +267,7 @@ cursor: pointer;
     background-color: rgba(255, 106, 255, 0.85);
     border-radius: 2rem;
     padding: 0.5rem;
+    width: 200px;
     }
     
     .ini > p{
