@@ -244,15 +244,15 @@ cursor: pointer;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 0.5rem;
-        font-size: 18px;
+        gap: 0.3rem;
+        font-size: 15px;
         background-color: rgba(255, 106, 255, 0.85);
         color: white;
         padding: 1rem;
         font-weight: bold;
         position: fixed;
         max-height: 80px;
-        width: 100%;
+        max-width: 100%;
     }
     
     
@@ -315,19 +315,26 @@ cursor: pointer;
 
 @media (max-width: 500px) {
 
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .navegacion{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 0.5rem;
-        font-size: 18px;
+        gap: 0.3rem;
+        font-size: 15px;
         background-color: rgba(255, 106, 255, 0.85);
         color: white;
         padding: 1rem;
         font-weight: bold;
         position: fixed;
         max-height: 80px;
-        width: 100%;
+        max-width: 415px;
+        overflow-x: auto; /* Agrega desplazamiento horizontal si el contenido es más ancho que el contenedor */
+        white-space: nowrap;
     }
     
     
@@ -354,7 +361,6 @@ cursor: pointer;
         display: flex;
         justify-content: center;
         height: 100%;
-        width: 100%;
     }
     
     .ini{
@@ -362,7 +368,7 @@ cursor: pointer;
     background-color: rgba(255, 106, 255, 0.85);
     border-radius: 2rem;
     padding: 0.5rem;
-    width: 100%;
+    width: 400px;
     
     }
     
@@ -374,5 +380,18 @@ cursor: pointer;
         font-size: 2rem;
     }
 
+    .contact > div > h1 {
+        color: rgb(255, 106, 255);
+        background-color: white;
+        border-radius: 2rem;
+        margin: 2rem;
+        padding: 2rem;
+        border: solid rgba(255, 106, 255, 0.85);
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
 
 }
+
+
