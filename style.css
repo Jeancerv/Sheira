@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: url(/imagenes/sheirafondo.jpg);
+background-size: 100%;
+}
+
+img {
+    border-radius: 2rem;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-size: 30px;
+    background-color: rgba(255, 106, 255, 0.85);
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    position: fixed;
+    max-height: 80px;
+    width: 100%;
+}
+
+
+#Contactame{
+    scroll-behavior: smooth;
+}
+
+.navegacion > a{
+cursor: pointer;
+text-decoration: none;
+color: white;
+scroll-behavior: smooth;
+}
+
+.navegacion > img{
+    height: 70px;
+    border-radius: 3rem;
+}
+
+.about {
+    padding: 150px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.ini{
+background-color: rgba(255, 106, 255, 0.85);
+border-radius: 2rem;
+padding: 1.2rem;
+}
+
+.ini > p{
+    font-size: 2rem;
+}
+
+.ini > h1{
+    font-size: 3rem;
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.Maquillajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 106, 255, 0.85);
+    padding: 2rem;
+    color: rgb(255, 106, 255);
+    font-size: 2rem;
+   
+}
+
+.Maquillajes > h2{
+    border: 5px solid rgb(255, 106, 255);
+    border-radius: 2rem;
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 10px;
+}
+
+.Maquillajes > div{
+    max-height: 600px;
+    max-width: 500px;
+}
+
+.MaquillajesArtisticos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 106, 255, 0.85);
+    
+    padding: 2rem;
+    color: rgb(255, 106, 255);
+    font-size: 2rem;
+}
+
+.MaquillajesArtisticos > h2{
+    border: 5px solid rgb(255, 106, 255);
+    border-radius: 2rem;
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 10px;
+}
+
+.MaquillajesArtisticos > div{
+    max-height: 600px;
+    max-width: 500px;
+}
+
+
+.Clientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 106, 255, 0.85);
+    padding: 2rem;
+    color: rgb(255, 106, 255);
+    font-size: 2rem;
+}
+
+.Clientes > h2{
+    border: 5px solid rgb(255, 106, 255);
+    border-radius: 2rem;
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 10px;
+}
+
+.Clientes > div{
+    max-height: 600px;
+    max-width: 500px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: rgba(255, 106, 255, 0.85);
+    text-align: center;
+}
+
+.contact > h3{
+    color: rgb(255, 106, 255);
+    background-color: aliceblue;
+    border: 5px solid;
+    border-radius: 1.5rem;
+    padding: 5px;
+    margin: 2rem;
+}
+
+.contact > div{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.contact > div > h1 {
+    color: rgb(255, 106, 255);
+    background-color: white;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    border: solid rgba(255, 106, 255, 0.85);
+}
+
+.contact > div > input{
+padding: 1rem;
+border-radius: 1rem;
+text-align: center;
+border: 5px solid rgb(255, 106, 255);
+font-size: 1.2rem;
+}
+
+.contact > div > input::placeholder{
+    color: rgb(255, 106, 255);
+}
+
+.contact > div > button{
+padding: 1.2rem;
+border-radius: 2rem;
+color: rgb(255, 106, 255);
+font-size: 2rem;
+border: 5px solid rgb(255, 106, 255);
+margin: 2rem;
+width: 200px;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 18px;
+        background-color: rgba(255, 106, 255, 0.85);
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        position: fixed;
+        max-height: 80px;
+        width: 100%;
+    }
+    
+    
+    #Contactame{
+        scroll-behavior: smooth;
+    }
+    
+    .navegacion > a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+    }
+    
+    .navegacion > img{
+        height: 50px;
+        border-radius: 3rem;
+    }
+
+    .about {
+        padding: 100px;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .ini{
+        
+    background-color: rgba(255, 106, 255, 0.85);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 400px;
+    
+    }
+    
+    .ini > p{
+        font-size: 1rem;
+    }
+    
+    .ini > h1{
+        font-size: 2rem;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 18px;
+        background-color: rgba(255, 106, 255, 0.85);
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        position: fixed;
+        max-height: 80px;
+        width: 100%;
+    }
+    
+    
+    #Contactame{
+        scroll-behavior: smooth;
+    }
+    
+    .navegacion > a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+    }
+    
+    .navegacion > img{
+        height: 50px;
+        border-radius: 3rem;
+    }
+
+    .about {
+        padding: 100px;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .ini{
+        
+    background-color: rgba(255, 106, 255, 0.85);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    
+    }
+    
+    .ini > p{
+        font-size: 1rem;
+    }
+    
+    .ini > h1{
+        font-size: 2rem;
+    }
+
+
+}
