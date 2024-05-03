@@ -7,6 +7,8 @@
 body {
 background-image: url(/imagenes/sheirafondo.jpg);
 background-size: 100%;
+width: 100%;
+overflow-x: hidden;
 }
 
 img {
@@ -233,6 +235,10 @@ cursor: pointer;
 }
 
 @media (max-width: 768px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     .navegacion{
         display: flex;
@@ -299,7 +305,8 @@ cursor: pointer;
         margin: 2rem;
         padding: 2rem;
         border: solid rgba(255, 106, 255, 0.85);
-        width: 300px;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
 
