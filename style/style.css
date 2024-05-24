@@ -241,15 +241,16 @@ cursor: pointer;
         font-size: 16px;
         padding: 0.5rem;
         position: relative;
+        justify-content: space-around;
     }
     .slider {
-        height: 200px;
+        height: 300px;
         
     }
 
     .slider img{
-        width: 40%;
-        margin-left: 120px;
+        width: 60%;
+        margin-left: 80px;
     }
 
     .about {
