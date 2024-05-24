@@ -239,9 +239,10 @@ cursor: pointer;
     
     .navegacion {
         font-size: 16px;
-        padding: 0.5rem;
+        padding: 1rem;
         position: relative;
-        justify-content: space-around;
+        justify-content: space-evenly;
+    
     }
     .slider {
         height: 300px;
