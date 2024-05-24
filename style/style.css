@@ -234,164 +234,39 @@ width: 200px;
 cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    body{
-        width: 100%;
-        overflow-x: hidden;
+@media (max-width: 576px) {
+    
+    
+    .navegacion {
+        font-size: 16px;
+        padding: 0.5rem;
+        position: relative;
+    }
+    .slider {
+        height: 200px;
+        
     }
 
-    .navegacion{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 0.3rem;
-        font-size: 15px;
-        background-color: rgba(255, 106, 255, 0.85);
-        color: white;
-        padding: 1rem;
-        font-weight: bold;
-        position: fixed;
-        max-height: 80px;
-        max-width: 100%;
-    }
-    
-    
-    #Contactame{
-        scroll-behavior: smooth;
-    }
-    
-    .navegacion > a{
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    scroll-behavior: smooth;
-    }
-    
-    .navegacion > img{
-        height: 50px;
-        border-radius: 3rem;
+    .slider img{
+        width: 40%;
+        margin-left: 120px;
     }
 
     .about {
-        padding: 100px;
-        color: aliceblue;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        height: 100%;
+        padding: 25px;
     }
-    
-    .ini{
-        
-    background-color: rgba(255, 106, 255, 0.85);
-    border-radius: 2rem;
-    padding: 0.5rem;
-    width: 400px;
-    
+    .ini > p {
+        font-size: 0.8rem;
     }
-    
-    .ini > p{
+    .ini > h1 {
         font-size: 1rem;
     }
-    
-    .ini > h1{
-        font-size: 2rem;
-    }
-
-    .contact > div > h1 {
-        color: rgb(255, 106, 255);
-        background-color: white;
-        border-radius: 2rem;
-        margin: 2rem;
-        padding: 2rem;
-        border: solid rgba(255, 106, 255, 0.85);
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-
-}
-
-
-@media (max-width: 500px) {
-
-    body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .navegacion{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 0.3rem;
-        font-size: 15px;
-        background-color: rgba(255, 106, 255, 0.85);
-        color: white;
-        padding: 1rem;
-        font-weight: bold;
-        position: fixed;
-        max-height: 80px;
-        max-width: 415px;
-        overflow-x: auto; /* Agrega desplazamiento horizontal si el contenido es más ancho que el contenedor */
-        white-space: nowrap;
-    }
-    
-    
-    #Contactame{
-        scroll-behavior: smooth;
-    }
-    
-    .navegacion > a{
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    scroll-behavior: smooth;
-    }
-    
-    .navegacion > img{
-        height: 50px;
-        border-radius: 3rem;
-    }
-
-    .about {
-        padding: 100px;
-        color: aliceblue;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        height: 100%;
-    }
-    
-    .ini{
-        
-    background-color: rgba(255, 106, 255, 0.85);
-    border-radius: 2rem;
-    padding: 0.5rem;
-    width: 400px;
-    
-    }
-    
-    .ini > p{
+    .Maquillajes, .MaquillajesArtisticos, .Clientes, .contact {
+        padding: 0.5rem;
         font-size: 1rem;
     }
-    
-    .ini > h1{
-        font-size: 2rem;
+    .Maquillajes > h2, .MaquillajesArtisticos > h2, .Clientes > h2, .contact > h3 {
+        font-size: 1rem;
+        padding: 5px;
     }
-
-    .contact > div > h1 {
-        color: rgb(255, 106, 255);
-        background-color: white;
-        border-radius: 2rem;
-        margin: 2rem;
-        padding: 2rem;
-        border: solid rgba(255, 106, 255, 0.85);
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-
 }
-
-
